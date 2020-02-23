@@ -2,6 +2,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.4em;
+    background-color: white;
 }
 
 a {
@@ -9,7 +10,31 @@ a {
     font-weight: bold;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: blue;
+    padding: 8px;
+}
+
 .container {
-    width: 80%;
+    width: 50%;
     margin: auto;
+    margin-top: 50px;
 }
