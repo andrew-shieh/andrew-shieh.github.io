@@ -18,8 +18,8 @@ body {
 }
 
 a {
+    color: blue;
     text-decoration: none;
-    font-weight: bold;
 }
 
 hr {
@@ -41,7 +41,7 @@ hr {
 }
 
 .navbar a {
-    color: blue;
+    font-weight: bold;
     padding: 8px;
 }
 
