@@ -1,4 +1,17 @@
 @font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik-regular.woff);
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik-medium.woff);
+    font-weight: bold;
+}
+
+
+/*
+@font-face {
     font-family: RobotoSlab;
     src: url(../fonts/RobotoSlab-Regular.ttf);
 }
@@ -8,13 +21,18 @@
     src: url(../fonts/RobotoSlab-Bold.ttf);
     font-weight: bold;
 }
+*/
 
 body {
     /*font-family: Helvetica, sans-serif;*/
-    font-family: RobotoSlab;
+    font-family: Graphik;
     font-size: 16px;
     line-height: 1.4em;
     background-color: #FDFDFD;
+}
+
+.main-header {
+    text-decoration: none;
 }
 
 a {
@@ -46,7 +64,7 @@ hr {
 }
 
 .container {
-    width: 50%;
+    width: 35%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
 }
