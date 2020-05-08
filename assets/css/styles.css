@@ -1,70 +1,88 @@
 @font-face {
-    font-family: Graphik;
-    src: url(../fonts/graphik-regular.woff);
+  font-family: Graphik;
+  src: url(../fonts/graphik-regular.woff);
 }
 
 @font-face {
-    font-family: Graphik;
-    src: url(../fonts/graphik-medium.woff);
-    font-weight: bold;
+  font-family: Graphik;
+  src: url(../fonts/graphik-medium.woff);
+  font-weight: bold;
 }
 
-
-/*
-@font-face {
-    font-family: RobotoSlab;
-    src: url(../fonts/RobotoSlab-Regular.ttf);
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
-@font-face {
-    font-family: RobotoSlab;
-    src: url(../fonts/RobotoSlab-Bold.ttf);
-    font-weight: bold;
+html, body {
+  margin: 0;
+  padding: 0;
 }
-*/
 
 body {
-    /*font-family: Helvetica, sans-serif;*/
-    font-family: Graphik;
-    font-size: 16px;
-    line-height: 1.4em;
-    background-color: #FDFDFD;
+  font-family: Graphik;
+  font-size: 18px;
+  line-height: 1.4em;
+  background-color: #FDFDFD;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+@media screen and (min-width: 40em) {
+  body {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+  }
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  padding: 24px;
+}
+
+@media screen and (min-width: 40em) {
+  main {
+    padding: 32px;
+  }
 }
 
 .main-header {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 .navbar ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar li {
-    display: inline;
+  display: inline;
 }
 
 .navbar a {
-    font-weight: bold;
-    padding: 8px;
+  font-weight: bold;
+  padding: 8px;
 }
 
 .container {
-    width: 35%;
-    margin: auto;
-    margin-top: 100px;
+  width: 35%;
+  margin: auto;
+  margin-top: 100px;
 }
