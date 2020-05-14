@@ -26,13 +26,13 @@ body {
   background-color: #FDFDFD;
   min-width: 100vw;
   min-height: 100vh;
-  box-align: center;
 }
 
 @media screen and (min-width: 40em) {
   body {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 }
 
