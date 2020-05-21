@@ -1,14 +1,3 @@
-@font-face {
-  font-family: Graphik;
-  src: url(../fonts/graphik-regular.woff);
-}
-
-@font-face {
-  font-family: Graphik;
-  src: url(../fonts/graphik-medium.woff);
-  font-weight: bold;
-}
-
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -20,7 +9,9 @@ html, body {
 }
 
 body {
-  font-family: Graphik;
+
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  text-rendering:optimizeLegibility;
   font-size: 18px;
   line-height: 1.4em;
   background-color: #FDFDFD;
