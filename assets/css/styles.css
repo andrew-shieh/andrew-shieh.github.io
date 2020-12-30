@@ -3,40 +3,25 @@
   -webkit-font-smoothing: antialiased;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 body {
-
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  text-rendering:optimizeLegibility;
-  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
   line-height: 1.4em;
-  background-color: #FDFDFD;
+  background-color: #fdfdfd;
   min-width: 100vw;
   min-height: 100vh;
 }
 
-@media screen and (min-width: 40em) {
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-main {
-  width: 100%;
-  max-width: 620px;
-  padding: 24px;
-}
-
-@media screen and (min-width: 40em) {
-  main {
-    padding: 32px;
-  }
+#container {
+  width: 90%;
+  max-width: 700px;
+  margin: 4rem auto;
 }
 
 .main-header {
@@ -46,6 +31,10 @@ main {
 a {
   color: blue;
   text-decoration: none;
+}
+
+a:hover {
+  color: purple;
 }
 
 hr {
